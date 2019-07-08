@@ -1,6 +1,4 @@
-// Code your design here
-//Nikolay Nikolov
-//Project 1
+
 module gate_adder
 (input  wire a, b, ci,
  output wire sum, co
@@ -33,7 +31,7 @@ or  g9	(sum, n7, n8);
 //****************************
 
 // carry out*****************
-//A B + A C-IN + B C-IN (A + A’)
+//A B + A C-IN + B C-IN (A + Aâ€™)
 and g10	(n10, a, b);
 and g11	(n11, a, ci);
 and g12	(n12, b, ci);
